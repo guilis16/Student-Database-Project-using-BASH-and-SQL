@@ -70,3 +70,10 @@ git push -u origin main
 git pull origin main
 git pull origin main --rebase
 git add .
+git commit -m "New changes"
+git pull origin main --rebase
+git pull origin main --ff-only
+git pull origin main --no-rebase
+git pull origin main --no-rebase --allow-unrelated-histories
+git status
+git add .
